@@ -2,26 +2,43 @@
 // Ex.:
 //   greaterThanTen([1, 2, 3, 11, 12, 13]);
 //   => [11, 12, 13]
-function greaterThanTen(numbers) {}
+function greaterThanTen(numbers) {
+  let highNumbers =[]
+  for(const number of numbers)
+  if(number > 10) {
+    highNumbers.push(number)
+  }
+  return highNumbers
+} 
 
 // Given an array of strings, return all words that start with 'b' or 'B'.
 // Ex.:
 //   bWords(['banana', 'orange', 'apple', 'Bonobo', 'kiwi', 'pear']);
 //   => ['banana', 'Bonobo]
-function bWords(words) {}
+function bWords(words) {
+  if(bWords) {
+    let result = words.include('b', 'B', true)
+    return result
+  }
+}
 
 // Add all the elements from additionalItems to the end of originalArray.
 // Return the originalArray..
 // Ex.:
 //  extend([1, 2, 3], [4, 5, 6]);
 //  => [1, 2, 3, 4, 5, 6]
-function extend(originalArray, additionalItems) {}
+function extend(originalArray, additionalItems) {
+  additionalItems.splice(0, 3, ['4','5','6'])
+  originalArray.splice(2, 0, ['4','5','6'])
+return originalArray
+}
 
 // Return an array of all items with the given length.
 // Ex.:
 //   itemsWithLength(['a', 'bbb', 'cccc', 'dddddd', 'eee'], 3);
 //   => ['bbb', 'eee']
-function itemsWithLength(items, length) {}
+function itemsWithLength(items, length) {
+}
 
 // Return an array with every other element from the input array (start with index 0).
 // Ex.:

@@ -14,7 +14,7 @@
 Which statement is true about JavaScript?
 
 - [ ] **A.** JavaScript is case insensitive, so `true` is the same as `True`.
-- [ ] **B.** JavaScript ignores whitespace characters like spaces and newline characters.
+- [x] **B.** JavaScript ignores whitespace characters like spaces and newline characters.
 - [ ] **C.** JavaScript requires you to end all statements with a semicolon (`;`).
 - [ ] **D.** All of the above are true.
 - [ ] **E.** None of the above are true.
@@ -34,7 +34,7 @@ answer.
 - [ ] **B.** `sum += 1`
 - [ ] **C.** `sum = sum + 1`
 - [ ] **D.** All of the above
-- [ ] **E.** Some of the above
+- [x] **E.** Some of the above
 
 ### A.3. What's the output?
 
@@ -45,7 +45,7 @@ const result = 1 < 100 || 'hello' === 'hi';
 console.log(result);
 ```
 
-- [ ] **A.** `true`
+- [x] **A.** `true`
 - [ ] **B.** `false`
 - [ ] **C.** `undefined`
 - [ ] **D.** N/A because the code has an error
@@ -64,7 +64,7 @@ if (word) {
 ```
 
 - [ ] **A.** `yay!`
-- [ ] **B.** `no :(`
+- [x] **B.** `no :(`
 - [ ] **C.** An empty line
 - [ ] **D.** N/A because the code has an error
 
@@ -88,7 +88,7 @@ cherry
 ```
 
 - [ ] **A.** `const fruit in fruits`
-- [ ] **B.** `const fruit of fruits`
+- [x] **B.** `const fruit of fruits`
 - [ ] **C.** `let fruit = 0; fruit < fruits.length; fruit++`
 - [ ] **D.** None of the above
 
@@ -103,7 +103,7 @@ function makeWordArray(phrase) {
 }
 ```
 
-- [ ] **A.** Nothing happens because the program errors out.
+- [x] **A.** Nothing happens because the program errors out.
 - [ ] **B.** It defines a function called `makeWordArray` and converts `phrase` into an array of words.
 - [ ] **C.** It defines a function called `makeWordArray` and outputs a word array.
 - [ ] **D.** It defines a function called `makeWordArray` but nothing else happens.
@@ -118,7 +118,7 @@ console.log'hi';
 // hi
 ```
 
-- [ ] **A.** The code causes an error because there should be parentheses around `'hi'`.
+- [x] **A.** The code causes an error because there should be parentheses around `'hi'`.
 - [ ] **B.** The code causes an error because `console.log` isn't a function.
 - [ ] **C.** The code causes an error because the code will run but it won't output anything.
 - [ ] **D.** There is no error; the code generates the expected output.
@@ -139,7 +139,7 @@ console.log(fruits[fruits.indexOf('apple')]);
 - [ ] **B.** The code causes an error because `fruits.indexOf('apple')` doesn't return a valid
   index number.
 - [ ] **C.** The code causes an error because it outputs `0` instead of the expected output.
-- [ ] **D.** There is no error; the code generates the expected output.
+- [x] **D.** There is no error; the code generates the expected output.
 
 ### A.9. Identify the error
 
@@ -157,7 +157,7 @@ for (const w of words) {
 ```
 
 - [ ] **A.** The code causes an error because `w` needs to be a `let` variable.
-- [ ] **B.** The code causes an error because `words` is an array and `toUpperCase()` isn't a
+- [x] **B.** The code causes an error because `words` is an array and `toUpperCase()` isn't a
   valid array function.
 - [ ] **C.** The code causes an error because it will output `['JS', 'HTML', 'CSS']` three times.
 - [ ] **D.** There is no error; the code generates the expected output.
@@ -178,7 +178,7 @@ console.log(numStrings);
 ```
 
 - [ ] **A.** The code causes an error because `numStrings` needs to be a `let` variable.
-- [ ] **B.** The code causes an error because `i <= nums.length` should be `i < nums.length`
+- [x] **B.** The code causes an error because `i <= nums.length` should be `i < nums.length`
 - [ ] **C.** The code causes an error because `i++` isn't valid JavaScript syntax.
 - [ ] **D.** There is no error; the code generates the expected output.
 
@@ -210,7 +210,7 @@ outputArgs('hi', 'bye');
   of the expected output.
 - [ ] **C.** The code causes an error because the `a`, `b`, and `c` variables haven't been
   initialized.
-- [ ] **D.** There is no error; the code generates the expected output.
+- [x] **D.** There is no error; the code generates the expected output.
 
 ## B. Free response
 
@@ -225,13 +225,13 @@ Functions can be used to create named blocks of code that can be executed/reused
 **_What is the difference between `console.log` and `return`?_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+The difference between 'console.log' and 'return' is 'return' exits a function and will return a value for the function that was called, it gives an output of the function. 'console.log()' will display the message within the parameters, it will print them to the console. 
 ```
 
 **_What's the difference between defining and calling a function?_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+Defining a function is giving the function a name, the function parameters, and does not run any code. Calling a function is invoking the function to actually perform the actions specified in the parameters, and will return a value. 
 ```
 
 ### B.2. Describe these data types.
@@ -241,25 +241,25 @@ Write a short description of the following data types:
 **_String_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+A String is basically a message of any kind, but must be within either single ('') or double ("") quotation marks, or backticks (`). A string can contain letters, numbers and symbols. It can have just one character or be a complete sentence. You can also put two strings together by using a plus sign (+) in between both strings. 
 ```
 
 **_Number_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+A Number in javascript can be any number type, a whole number, a positive or negative number, a number with decimals, etc. You can perform different types of mathematical operations on numbers (addition, subtraction, multiplication, etc.), as well as reassign them or update their value.  
 ```
 
 **_Boolean_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+A Boolean results in either true or false. It is used to execute code on conditional logic. Booleans are used within a 'if ... else' type statement, and uses comparison expressions (===, !==, <, >, etc.).
 ```
 
 **_Array_**
 
 ```
-REPLACE THIS WITH YOUR ANSWER
+An Array can combine several data types and can contain multiple items. You can put any data type into an array but they must be separated by a comma and surrounded by square brackets [ ]. Arrays are ordered and use index's starting at 0. They also use plural nouns. You can add to your array, take away from your array, and use several other methods when using them. 
 ```
 
 ### B.3. Trace the value of `x`
@@ -282,7 +282,7 @@ completed for you.
 
 ```
 Initial values: y = 0, x = 5
-1:              y = 1, x = ??
-2:              y = 2, x = ??
-3:              y = 3, x = ??
+1:              y = 1, x = 10
+2:              y = 2, x = 15
+3:              y = 3, x = 20
 ```
